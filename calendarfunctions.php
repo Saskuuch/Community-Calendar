@@ -1,6 +1,7 @@
 <?php
 /*Calendar uses a lot of functions, so these where separated from modal.php to make it more readable*/ 
-$con = mysqli_connect("localhost", "f3ewarner", "f3ewarner136", "C354_f3ewarner");
+//Conection details changed for privacy
+$con = mysqli_connect(/*"localhost", "usernamehere", "password", "databasename"*/);
 
 //Creates calendar featured in calendar.php
 function createCalendar($date){
