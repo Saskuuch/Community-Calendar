@@ -1,6 +1,7 @@
 <?php
 /*Functions used by calendar moved to calendarfunctions to make more readable*/
-$con = mysqli_connect("localhost", "f3ewarner", "f3ewarner136", "C354_f3ewarner");
+//Conection details changed for privacy
+$con = mysqli_connect(/*"localhost", "usernamehere", "password", "databasename"*/);
 
 /****************User functions****************/
 
